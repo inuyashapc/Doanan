@@ -1,0 +1,12 @@
+/* dau . la tuong trung cho class */
+/* thang class co do uu tien thap hon id */
+.container {
+  background-color: aqua;
+  color: red;
+}
+
+/* dau # la tuong trung cho id */
+#containerId {
+  background-color: yellow;
+  color: green;
+}

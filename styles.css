@@ -1,0 +1,29 @@
+.container {
+  margin: 70px;
+  border: 1px solid #2196f3;
+}
+
+.border {
+  /* 4 canh deu co margin 70px */
+  /* margin: 70px; */
+  /* 70px la truc tung, 10px la truc hoanh */
+  /* margin: 70px 10px; */
+  /* margin: top right bottom left */
+  margin: 70px 10px 50px 30px;
+  border: 1px solid #4caf50;
+}
+
+.padding {
+  /* 4 canh deu co margin 70px */
+  margin: 10px;
+  /* 70px la truc tung, 10px la truc hoanh */
+  /* margin: 70px 10px; */
+  /* margin: top right bottom left */
+  background-color: yellow;
+  padding: 10px 10px 50px 30px;
+  border: 1px solid #4caf50;
+}
+
+.padding-content {
+  background-color: pink;
+}

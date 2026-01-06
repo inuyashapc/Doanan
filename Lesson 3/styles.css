@@ -1,0 +1,50 @@
+.bgColor {
+  width: 100%;
+  height: 1500px;
+  /* background-color: aqua; */
+  background-image: linear-gradient(0, rgba(255, 2, 2, 0.226), #0909ff80),
+    url(https://cdn.shopify.com/s/files/1/0624/1746/9697/files/siberian-husky-100800827-2000-9449ca147e0e4b819bce5189c2411188_600x600.jpg?v=1690185264);
+  /* lap lai theo chieu doc */
+  background-repeat: repeat-y;
+  background-size: 100%;
+  /* keyword */
+  /* cover full kich thuoc cho kich thuoc man hinh em tao ra */
+  background-size: cover;
+}
+
+.bgPosition {
+  width: 100%;
+  height: 600px;
+  background-color: bisque;
+  background-image: url(https://cdn.shopify.com/s/files/1/0624/1746/9697/files/siberian-husky-100800827-2000-9449ca147e0e4b819bce5189c2411188_600x600.jpg?v=1690185264);
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.parent {
+  width: 100%;
+  height: 500px;
+  background-color: blue;
+  position: relative;
+}
+/* absolute no phu thuoc vao relative */
+.child {
+  width: 50px;
+  height: 50px;
+  background-color: brown;
+  position: absolute;
+  top: 50px;
+  left: 20px;
+}
+.relative {
+  width: 100%;
+  height: 400px;
+  background-color: aqua;
+  position: relative;
+}
+.parent2 {
+  width: 100%;
+  height: 500px;
+  background-color: rgb(19, 254, 19);
+  position: relative;
+  top: 30px;
+}
